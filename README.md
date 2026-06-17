@@ -1,8 +1,8 @@
-Smart Attendance System Using Face Recognition
+**Smart Attendance System Using Face Recognition**
 
 An intelligent attendance system that uses facial recognition to automatically mark and store student attendance with real-time camera input and sound alerts.
 
-🛠️ Tech Stack:
+Tech Stack:
 
 	•	Frontend: Streamlit
 	•	Backend: Python
@@ -11,10 +11,9 @@ An intelligent attendance system that uses facial recognition to automatically m
 	•	OpenCV
 	•	pygame
 	•	sqlite3
-	•	PIL
 	•	datetime
 
-📂Modules:
+Modules:
 	1.	register_student.py – Register a new student and capture face images.
 	2.	encode_faces.py – Encode all registered faces into embeddings for matching.
 	3.	recognize_and_log.py – Run live camera to detect and log attendance.
